@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+<!--                 <li><a href="#experience">Work Experience</a></li> -->
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="toggleDarkMode">Toggle Dark Mode</button></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>A showcase of my work and skills</p>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="web">Web Development</button>
+        <button class="filter-btn" data-category="app">App Development</button>
+        <div class="projects-grid">
+            <div class="project-item" data-category="web">
+                <h3>Project 1: User Trust Driven Video organization in social media</h3>
+                <p>with html css and python  to showcase my skills </p>
+<!--                 <a href="#">View Project</a> -->
+            </div>
+            <div class="project-item" data-category="app">
+                <h3>Project 2: A machine learning approach using statistical models for early detection</h3>
+              <p>I used HTML to check newborn babies health</p> </div>
+               <div class="project-item" data-category="mini">
+                <h3>Project 3: deep fake detection using social media</h3>
+                 <p>made ppt and presented it in college </p> </div>
+                  <div class="project-item" data-category="major">
+                <h3>Project 4: event driven for cyber threat attacks</h3>
+                <p>using this it explains how to be aware of cyber attacks</p>
+<!--                 <a href="#">View Project</a> -->
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+<!--     <section id="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <h3>Job Title 1</h3>
+                <p>Company Name, Year</p>
+                <p>Brief description of job responsibilities.</p>
+            </li>
+            <li>
+                <h3>Job Title 2</h3>
+                <p>Company Name, Year</p>
+                <p>Brief description of job responsibilities.</p>
+            </li>
+        </ul>
+    </section>
+ -->
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>B.Tech</h3>
+                <p>Aurora's technological and research institute, 2025</p>
+            </li>
+            <li>
+                <h3>intermediate</h3>
+                <p>Alphores Junior college,2021</p>
+            </li>
+          <li>
+                <h3>Higher school</h3>
+                <p>chukka ramaiah high school,2019</p>
+            </li>
+        </ul>
+    </section>
+  <section id="languages">
+        <h2>languages</h2>
+        <ul>
+            <li>
+                english
+            </li>
+          <li>hindi</li>
+          <li>telugu</li>
+          
+    </ul>
+  </section>
+            
+       
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <!--<input type="text" id="name" name="name" required>-->
+          <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formFeedback" class="hidden">Your message has been sent!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+        <div class="social-media">
+            <a href="www.linkedin.com/in/nivas-rao-4432082a4>"LinkedIn</a>
+             
+<!--           <a href="#">GitHub</a>
+            <a href="#">Twitter</a> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
